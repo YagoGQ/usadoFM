@@ -1,0 +1,43 @@
+.menu {
+  background-image: url(img/head.png);
+  width: 100%;
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .navegacion {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    a {
+      background-color: blue;
+      color: white;
+      padding: 12px 22px;
+      display: block;
+      font-size: 15px;
+      border-radius: 7%;
+      text-decoration: none;
+      min-width: 100px;
+    }
+    a:hover {
+      background-color: cyan;
+      color: blue;
+    }
+    .mer {
+      float: left;
+      margin: 50px;
+      width: 240px;
+      .desple {
+        display: none;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 240px;
+      }
+    }
+    .mer:hover .desple {
+      display: block;
+      list-style: none;
+    }
+  }
+}

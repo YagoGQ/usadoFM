@@ -1,0 +1,28 @@
+@import "inicio";
+@import "footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html body {
+  background-image: url(img/body.png);
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.body {
+  margin: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+  img {
+    width: 100%;
+  }
+  .menu {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+}

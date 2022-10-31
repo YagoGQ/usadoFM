@@ -11,18 +11,41 @@ html body {
 }
 
 .body {
-  margin: 20px;
+  margin-top: 150px;
+  padding: 30px;
   text-align: center;
+  p {
+    margin-top: 35px;
+  }
+}
+
+.contenido{
+  .cont2 {
+    margin-top: $margen;
+  }
+  .cont3 {
+    margin-top: $margen;
+  }
+  .cont4 {
+    margin-top: $margen;
+  }
 }
 
 @media screen and (max-width: 650px) {
   img {
-    width: 100%;
+    width: $ajuste;
   }
   .menu {
-    width: 100%;
+    width: $ajuste;
+  }
+  h1 {
+    margin: 10px;
+  }
+  .nav {
+    margin: 0px;
+    padding: 0px;
   }
   iframe {
-    width: 100%;
+    width: $ajuste;
   }
 }

@@ -1,6 +1,9 @@
+$margen: 50px;
+$ajuste: 100%;
+
 .menu {
   background-image: url(img/head.png);
-  width: 100%;
+  width: $ajuste;
   h1 {
     text-align: center;
     text-transform: uppercase;
@@ -25,7 +28,7 @@
     }
     .mer {
       float: left;
-      margin: 50px;
+      margin: $margen;
       width: 240px;
       .desple {
         display: none;

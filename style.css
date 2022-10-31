@@ -1,47 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .menu {
   background-image: url(img/head.png);
-  width: 100%;
-}
-.menu h1 {
-  text-align: center;
-  text-transform: uppercase;
-}
-.menu .navegacion {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.menu .navegacion a {
-  background-color: blue;
-  color: white;
-  padding: 12px 22px;
-  display: block;
-  font-size: 15px;
-  border-radius: 7%;
-  text-decoration: none;
-  min-width: 100px;
-}
-.menu .navegacion a:hover {
-  background-color: cyan;
-  color: blue;
-}
-.menu .navegacion .mer {
-  float: left;
-  margin: 50px;
-  width: 240px;
-}
-.menu .navegacion .mer .desple {
-  display: none;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 240px;
-}
-.menu .navegacion .mer:hover .desple {
-  display: block;
-  list-style: none;
-}
+  width: 100%; }
+  .menu h1 {
+    text-align: center;
+    text-transform: uppercase; }
+  .menu .navegacion {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .menu .navegacion a {
+      background-color: blue;
+      color: white;
+      padding: 12px 22px;
+      display: block;
+      font-size: 15px;
+      border-radius: 7%;
+      text-decoration: none;
+      min-width: 100px; }
+    .menu .navegacion a:hover {
+      background-color: cyan;
+      color: blue; }
+    .menu .navegacion .mer {
+      float: left;
+      margin: 50px;
+      width: 240px; }
+      .menu .navegacion .mer .desple {
+        display: none;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 240px; }
+    .menu .navegacion .mer:hover .desple {
+      display: block;
+      list-style: none; }
 
 footer {
   background-color: bisque;
@@ -49,28 +41,39 @@ footer {
   display: block;
   padding: 20px;
   text-align: center;
-}
+  margin-top: 100px; }
 
 html body {
   background-image: url(img/body.png);
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  width: 100%;
-}
+  width: 100%; }
 
 .body {
-  margin: 20px;
-  text-align: center;
-}
+  margin-top: 150px;
+  padding: 30px;
+  text-align: center; }
+  .body p {
+    margin-top: 35px; }
+
+.contenido .cont2 {
+  margin-top: 50px; }
+
+.contenido .cont3 {
+  margin-top: 50px; }
+
+.contenido .cont4 {
+  margin-top: 50px; }
 
 @media screen and (max-width: 650px) {
   img {
-    width: 100%;
-  }
+    width: 100%; }
   .menu {
-    width: 100%;
-  }
+    width: 100%; }
+  h1 {
+    margin: 10px; }
+  .nav {
+    margin: 0px;
+    padding: 0px; }
   iframe {
-    width: 100%;
-  }
-}
+    width: 100%; } }
